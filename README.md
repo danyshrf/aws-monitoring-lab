@@ -35,11 +35,23 @@ AWS Services
 
 ## Tech Stack
 
-| Cloud | AWS EC2, CloudWatch, SNS, IAM |
-| Monitoring | Prometheus, Node Exporter |
-| Visualization | Grafana (latest) |
-| OS | Amazon Linux 2023 |
-| Automation | systemd, bash |
-| Incident Sim | stress-ng |
+- | Cloud | AWS EC2, CloudWatch, SNS, IAM |
+- | Monitoring | Prometheus, Node Exporter |
+- | Visualization | Grafana (latest) |
+- | OS | Amazon Linux 2023 |
+- | Automation | systemd, bash |
+- | Incident Sim | stress-ng |
+
+---
+
+---
+
+## Key Results
+
+- CPU stress test triggered **both alert pipelines** within 1 minute
+- CloudWatch alarm fired: `OK → ALARM` at **90.17% CPU**
+- Grafana alert fired: `High-CPU-Prometheus-Alert` at **100% CPU**
+- Custom metrics namespace `MonitoringLab/EC2` visible in CloudWatch console
+- Grafana dashboard showing real-time CPU, RAM, Disk, and Network panels
 
 ---
