@@ -32,3 +32,14 @@ AWS Services
 - Full systemd service management on Linux
 
 ---
+
+## Tech Stack
+
+| Cloud | AWS EC2, CloudWatch, SNS, IAM |
+| Monitoring | Prometheus, Node Exporter |
+| Visualization | Grafana (latest) |
+| OS | Amazon Linux 2023 |
+| Automation | systemd, bash |
+| Incident Sim | stress-ng |
+
+---
