@@ -56,7 +56,7 @@ AWS Services
 
 ## Setup Guide
 
-See [docs/setup-guide.md](docs/setup-guide.md) for full step-by-step instructions.
+See [docs/setup-guide.md](https://github.com/danyshrf/aws-monitoring-lab/blob/main/docs/setup-guide.md) for full step-by-step instructions.
 
 ---
 
