@@ -44,8 +44,6 @@ AWS Services
 
 ---
 
----
-
 ## Key Results
 
 - CPU stress test triggered **both alert pipelines** within 1 minute
@@ -55,3 +53,14 @@ AWS Services
 - Grafana dashboard showing real-time CPU, RAM, Disk, and Network panels
 
 ---
+
+## Setup Guide
+
+See [docs/setup-guide.md](docs/setup-guide.md) for full step-by-step instructions.
+
+---
+
+## Skills Demonstrated
+
+`AWS` `EC2` `CloudWatch` `SNS` `IAM` `Prometheus` `Grafana` `Node Exporter`
+`Linux Administration` `systemd` `PromQL` `Observability` `Alerting` `Incident Simulation`
